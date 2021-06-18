@@ -4,7 +4,7 @@
 }
 @font-face{
     font-family: "fuente";
-    src: url("font/Dash-Horizon-Demo.otf");
+    src: url("font/cs_regular.ttf");
 }
 @font-face{
     font-family: "precios";
@@ -15,6 +15,7 @@
     height: 130px;
     float: left;
 }
+
 h1{
     color: blue;
     font-family: "fuente";
@@ -23,50 +24,39 @@ h1{
     font-size: 70px;
     padding: 15px;
 }
-#borde{
-    width: 500px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#menu{
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    top: 5em; 
+    left: 20em;
 }
 ul, ol{
     list-style: none;
 }
-.cat > li{
+.nav > li{
     float: left;
 }
-.cat li a{
-    background-color: cornsilk;
+.nav li a{
+    background-color: #E5E5E5;
     color: black;
     text-decoration: none;
     padding: 10px 12px;
     display: block;
 }
-.cat li a:hover{
-    background-color: cornflowerblue;
+.nav li a:hover{
+    background-color: skyblue;
 }
-.cat li ul{
+.nav li ul{
     display: none;
     position: absolute;
     min-width: 140px;
 }
-.cat li:hover > ul{
+.nav li:hover > ul{
     display: block;
 }
-.cat li ul li{
+.nav li ul li{
     position: relative;
-}
-#busqueda{
-    background-color: cornsilk;
-    padding: 10px 12px;
-}
-#carrito{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: cornsilk;
-    padding: 10px 12px;
-    float: right;
-}
-#carrito:hover{
-    background-color: cornflowerblue;
 }
 .boton {
  width: 100px; height: 30px;
@@ -87,15 +77,15 @@ ul, ol{
  line-height: 1.6em;
 }
 #container{
-    background-color: #DAFFF7;
+    background-color:#E5E5E5;
     margin: auto;
-    width: 1320px;
+    width: 1800px;
     padding: 1em;
     overflow: hidden;     
 }
 #item1{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -103,14 +93,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto1{
-    border: violet solid;
+    border: 1px black solid;
     width:250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item2{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -118,14 +108,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto2{
-    border: violet solid;
+    border: 1px black solid;
     width:250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item3{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -133,14 +123,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto3{
-    border: violet solid;
+    border: 1px black solid;
     width:250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item4{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -148,14 +138,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto4{
-    border: violet solid;
+    border: 1px black solid;
     width:250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item5{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -163,14 +153,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto5{
-    border: violet solid;
+    border: 1px black solid;
     width:250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item6{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -178,14 +168,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto6{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item7{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -193,14 +183,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto7{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item8{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;;
     float: left;
     border: ridge;
     color: orangered;
@@ -208,14 +198,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto8{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item9{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -223,14 +213,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto9{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item10{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -238,14 +228,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto10{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item11{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -253,14 +243,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto11{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item12{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -268,14 +258,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto12{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item13{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -283,14 +273,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto13{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item14{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -298,14 +288,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto14{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item15{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -313,14 +303,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto15{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item16{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -328,14 +318,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto16{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item17{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -343,14 +333,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto17{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item18{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -358,14 +348,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto18{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item19{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -373,14 +363,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto19{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item20{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -388,14 +378,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto20{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item21{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -403,14 +393,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto21{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item22{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -418,14 +408,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto22{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item23{
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -433,14 +423,14 @@ ul, ol{
     font-weight: bold;
 }
 .foto23{
-    border: violet solid;
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
 }
 #item24{ 
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     float: left;
     border: ridge;
     color: orangered;
@@ -449,7 +439,23 @@ ul, ol{
     
 }
 .foto24{
-    border: violet solid;
+    border: 1px black solid;
+    width: 250px;
+    height: 250px;
+    transition: all 500ms ease;
+}
+#item25{ 
+    margin: 1em;
+    padding: 2em;
+    float: left;
+    border: ridge;
+    color: orangered;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.foto25{
+    border: 1px black solid;
     width: 250px;
     height: 250px;
     transition: all 500ms ease;
@@ -526,4 +532,18 @@ ul, ol{
 }
 .foto24:hover{
     transform: scale(1.2);
+}
+.foto25:hover{
+    transform: scale(1.2);
+}
+.fot{
+    margin: auto;
+    width: 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-left: 60px;
 }
