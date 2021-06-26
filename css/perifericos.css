@@ -545,5 +545,12 @@ ul, ol{
 .copy{
     font-family: Arial, Helvetica, sans-serif;
     float: left;
-    padding-left: 60px;
+    padding-left: 56px;
+}
+
+#inicio{
+    position: absolute; 
+    top: 30px; 
+    right: 30px;
+   
 }

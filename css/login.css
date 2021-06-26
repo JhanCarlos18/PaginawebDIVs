@@ -1,0 +1,26 @@
+.formulario{
+    position: absolute; 
+    top: 300px; 
+    left: 45em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+}
+
+.nombre2{
+    color: blue;
+    font-family: hola;
+}
+
+.foto{
+    position: absolute; 
+    top: 750px;
+    width: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyo{
+    position: absolute;
+    top: 930px; 
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
