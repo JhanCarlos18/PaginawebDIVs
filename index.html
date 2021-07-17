@@ -2,160 +2,342 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perifericos</title>
-    <link rel="stylesheet" href="css/perifericos.css"type="text/css">
+    <title>CenturyComputers</title>
+    <script src="https://kit.fontawesome.com/500c10f002.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/perifericos.css">
+    <link rel="stylesheet" href="css/styleweb.css">
 </head>
-<body bgcolor="#E5E5E5">
-        <img id="logo" src="images/pantheon.png">
-        <h1>CENTURY - COMPUTERS</h1>
-    
-        <div id="menu">
-            <ul class="nav">
-                <li><a href=""><h2>&nbsp;CATEGORIAS&nbsp;</h2></a>
+<body>
+    <header class="header twelve columns">
+        <div class="container1">
+            <div class="row">
+                <div class="four columns">
+                    <h1>Century-Computers</h1>
+                </div>
+                <div class="barraPrincipal">
+                    <nav class="navegacion">
+                        <ul class="menu1">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Procesadores</a></li>
+                            <li><a href="#">RAM</a></li>
+                            <li><a href="#">Case</a></li>
+                            <li><a href="#">Tarjeta de Video</a></li>
+                            <li><a href="#">Placa Base</a></li>
+                            <li><a href="#">Fuente de Poder</a></li>
+                            <li><a href="#">Perifericos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="buscador ">
+                    <input type="text" placeholder="Buscar" required>
+                    <div class="btn0">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="two columns u-pull-right">
                     <ul>
-                        <li><a href=""> Teclado</a></li>
-                        <li><a href=""> Mouse</a></li>
-                        <li><a href=""> Audifonos</a></li>
-                        <li><a href=""> Camara Web</a></li>
-                        <li><a href=""> MousePad</a></li>
-                        <li><a href=""> Microfonos</a></li>
-                        <li><a href=""> Mandos</a></li>    
+                        <li class="submenu">
+                            <img src="images/cart.png" alt="" class="cart">
+                            <div id="carrito">
+                               
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Codigo</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
+                                <a href="#" id="procesar-compra" class="button u-full-width">procesar compra</a>
+                            </div>
+                        </li>
+                        <!-- <li><img src="images/seciom.png" width="40px" height="40px"></li> -->
                     </ul>
-                </li>
-                <li><a href=""><h2>&nbsp;FILTRAR&nbsp;</h2></a>
-                    <ul>
-                        <li><a href=""> A-Z</a></li>
-                        <li><a href=""> PRECIO</a></li>
-                        <li><a href=""> MARCA</a></li>
-                        <li><a href=""> COLOR</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://julio704.github.io/centurys.github/"><h2>&nbsp;INICIO&nbsp;</h2></a></li>
-                <li id="carrito"><a href=""><h2>&nbsp;CARRITO<img src=images/carrito.png height="20px">&nbsp;</h2></a></li>
-                <li><a href=""><h2>&nbsp;BUSCAR&nbsp;</h2></a></li>
-                <li id="inicio"><a href="index2.html"><img src="images/seciom.png" height="50px"></a></li>
-            </ul>
+                </div>
+            </div>
         </div>
-    <div id="container"><hr style="border-color:red;">
-        <div id="item1">
-            <img class="foto1" src="images/teclado1.jpg" alt="imagen 1" title="Teclado mecanico inalambrico">
-            <br clear="bottom">Precio: S/ 400.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item2">
-            <img class="foto2" src="images/teclado2.jpg" alt="imagen 2" title="HyperX Alloy Origins core Gaming">
-            <br clear="bottom">Precio: S/ 340.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item3">
-            <img class="foto3" src="images/mousepad1.jpg" alt="imagen 3" title="Mouse Pad, Hyperx Fury S - pro">
-            <br clear="bottom">Precio: S/ 90.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item4">
-            <img class="foto4" src="images/mousepad2.jpg" alt="imagen 4" title="Mouse Pad Corsair MM300 Anti-Fray Gaming">
-            <br clear="bottom">Precio: S/ 200.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item5">
-            <img class="foto5" src="images/auriculares2.jpg" alt="imagen 5" title="Audifonos Gamer Void RGB Elit Wireles B ">
-            <br clear="bottom">Precio: S/ 589.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item6">
-            <img class="foto6" src="images/auriculares1.jpg" alt="imagen 6" title="Audifonos Logitech G G733 Wireless RGB - Blanco">
-            <br clear="bottom">Precio: S/ 699.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item7">
-            <img class="foto7" src="images/camara1.jpg" alt="imagen 7" title="Logitech Webcam HD C270 720P">
-            <br clear="bottom">Precio: S/ 229.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item8">
-            <img class="foto8" src="images/camara2.jpg" alt="imagen 8" title="Webcam HD 480P PC Cámara con micrófono de absorción MIC">
-            <br clear="bottom">Precio: S/ 79.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item9">
-            <img class="foto9" src="images/mouse1.jpg" alt="imagen 9" title="Mouse Logitech G203 Lightsync RGB 8000 dpi">
-            <br clear="bottom">Precio: S/ 130.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item10">
-            <img class="foto10" src="images/mouse2.jpg" alt="imagen 10" title="Hyperx Pulsefire Surge (Mouse)">
-            <br clear="bottom">Precio: S/ 269.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item11">
-            <img class="foto11" src="images/microfono1.jpg" alt="imagen 11" title="Microfono HYPERX Quadcast">
-            <br clear="bottom">Precio: S/ 529.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item12">
-            <img class="foto12" src="images/microfono2.jpg" alt="imagen 12" title="Microfono Streaming Redragon Blazar">
-            <br clear="bottom">Precio: S/ 315.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item13">
-            <img class="foto13" src="images/teclado3.png" alt="imagen 13" title="Teclado Mecánico Alnitak Red Vsg">
-            <br clear="bottom">Precio: S/ 225.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item14">
-            <img class="foto14" src="images/teclado4.jpg" alt="imagen 14" title="Razer Blackwidow V3 Teclado Mecánico - Switch Amarillo">
-            <br clear="bottom">Precio: S/ 630.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item15">
-            <img class="foto15" src="images/mouse3.jpg" alt="imagen 15" title="Mouse Gamer VSG Aquila Fly - Blanco Brillante">
-            <br clear="bottom">Precio: S/ 260.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item16">
-            <img class="foto16" src="images/mouse4.jpg" alt="imagen 16" title="Mouse Razer Deathadder V2 Chroma Black">
-            <br clear="bottom">Precio: S/ 260.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item17">
-            <img class="foto17" src="images/auriculares3.jpg" alt="imagen 17" title="Audifonos HyperX Cloud Alpha">
-            <br clear="bottom">Precio: S/ 260.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item18">
-            <img class="foto18" src="images/auriculares4.jpg" alt="imagen 18" title="RAZER Kraken X USB">
-            <br clear="bottom">Precio: S/ 521.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item19">
-            <img class="foto19" src="images/camara3.jpg" alt="imagen 19" title="WebCam REDRAGON Hitman 1080p(PN:GW800)">
-            <br clear="bottom">Precio: S/ 210.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item20">
-            <img class="foto20" src="images/camara4.jpg" alt="imagen 20" title="Camara Web GENIUS FACECAM 1000X">
-            <br clear="bottom">Precio: S/ 150.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item21">
-            <img class="foto21" src="images/microfono3.jpg" alt="imagen 21" title="GM200 Micrófono REDRAGON QUASAR">
-            <br clear="bottom">Precio: S/ 169.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item22">
-            <img class="foto22" src="images/microfono4.jpg" alt="imagen 22" title="Microfono LOGITECH BLUE YETI NANO SHADOW GRAY">
-            <br clear="bottom">Precio: S/ 419.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item23">
-            <img class="foto23" src="images/mando1.jpg" alt="imagen 23" title="Mando para Ps3 PlayStation 3">
-            <br clear="bottom">Precio: S/ 89.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item24">
-            <img class="foto24" src="images/mando2.jpg" alt="imagen 24" title="Mando DualSense PS5">
-            <br clear="bottom">Precio: S/ 320.00 <div class="boton"><p>COMPRAR</p></div>
-        </div>
-        <div id="item25">
-            <img class="foto25" src="images/mousepad4.jpg" alt="imagen 25" title="Mouse pad RGB negro xxl">
-            <br clear="bottom">Precio: S/ 120.00 <div class="boton"><p>COMPRAR</p></div>
+    </header>
+
+<main class="main1">
+    <div id="lista-productos" class="container">
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/teclado1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Teclado Mecanico Inalambrico | NEGRO</h4>
+                        <h4 class="cod1">(90DC00B0-B30000)</h4>                        
+                        <p class="precio">$75.71</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/teclado2.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>HyperX Alloy Origins core Gaming | RGB</h4>
+                        <h4 class="cod1">(MCM-H500M-IHNN-S00)</h4>                      
+                        <p class="precio">$88.33</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mousepad1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Pad, Hyperx Fury S - pro | NEGRO</h4>
+                        <h4 class="cod1">(CC-9011141-WW)</h4>
+                        <p class="precio">$25.24</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="fot">
-            <hr>
-            <br>
-            <table>
-                <tr>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMACION <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Terminos y condiciones</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Nuestra Empresa</a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Medios de Pagos</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACTOS <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ventas_CENTURYCOMPUTERS" Facebook <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"CENTURY_COMPUTERS" Instagram <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;999 888 777 WhatsApp</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIGUENOS <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/face.png" style="width: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/insta.png" style="width: 40px;"></td>
-                </tr>
-            </table>
-            <br>
-            <hr>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mousepad2.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>MousePad Corsair MM300 Anti-Fray Gaming | GRIS - XXL | ADERENTE | ABSORBE | el sudor y el liquido</h4>
+                        <h4 class="cod1">(MPG SEKIRA 100R)</h4>
+                        <p class="precio">$31.55</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/auriculares2.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Audifonos Gamer Void  Elit Wireles B | RGB | CORSAIR</h4>
+                        <h4 class="cod1">(3858M30.0001)</h4>
+                        <p class="precio">$126.18</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/auriculares1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Audifonos Logitech G G733 Wireless | RGB - Blanco</h4>
+                        <h4 class="cod1">( CC-9011117-WW )</h4>
+                        <p class="precio">$133.75</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="copy">
-            Copyright© Importaciones Century Computers. Todos los derechos reservados <br><br>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/camara1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Logitech Webcam Full Hd a 1080p | C270 | 720P</h4>
+                        <h4 class="cod1">( GTC80308A )</h4>
+                        <p class="precio">$35.33</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mouse1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Logitech G203 Lightsync  8000 | dpi</h4>
+                        <h4 class="cod1">( 2210-17090105 )</h4>
+                        <p class="precio">$53.00</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mouse2.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Hyperx Pulsefire Surge |COLORS - BLACK  | RGB</h4>
+                        <h4 class="cod1">( CC-9011130-WW )</h4>
+                        <p class="precio">$65.62</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/microfono1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Microfono HYPERX Quadcast | NEGRO - ANTITOP</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$113.56</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/microfono2.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Microfono Streaming Redragon Blazar | TRIPODE</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$93.38</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/teclado4.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Razer Blackwidow V3 Teclado Mecánico Switch Amarillo | RGB</h4>
+                        <h4 class="cod1">( SPARTA 848 )</h4>
+                        <p class="precio">$118.86</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mouse3.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Gamer VSG Aquila Fly | Blanco Brillante</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$27.76</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="13">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mouse4.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Razer Deathadder V2 | Chroma Black</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$75.71</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="14">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/auriculares3.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Audifonos HyperX Cloud Alpha | RED</h4>
+                        <h4 class="cod1">( SPARTA 848 )</h4>
+                        <p class="precio">$70.66</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="15">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/auriculares4.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>RAZER Kraken X USB | NEGRO - VERDE RGB</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$116.09</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="16">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/camara3.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>WebCam REDRAGON Hitman 1080p | GRIS</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$24.98</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="17">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/camara4.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Camara Web GENIUS FACECAM 1000X | NEGRO - GRIS</h4>
+                        <h4 class="cod1">( SPARTA 848 )</h4>
+                        <p class="precio">$20.19</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="18">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/microfono3.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>GM200 Micrófono REDRAGON QUASAR | ANTIPOP</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$60.57</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="19">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/microfono4.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Microfono LOGITECH BLUE YETI NANO  | SHADOW - GRAY</h4>
+                        <h4 class="cod1">( GTA80818A )</h4>
+                        <p class="precio">$151.42</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="20">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="images/mando1.jpg" class="imagen-producto u-full-width">
+                    <div class="info-card">
+                        <h4>Mando para Ps3 | PlayStation 3 | NEGRO</h4>
+                        <h4 class="cod1">( SPARTA 848 )</h4>
+                        <p class="precio">$14.89</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="21">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <footer class="footer"> 
+        <div class="container2">
+            <div class="row">
+                <div class="terminos">
+                    <div class="fot">
+                        <table style="margin: auto;" class="tabla1" >
+                                <td style="width: 300px;" class="td1">INFORMACIÓN <br><br><a href="">Términos y condiciones</a> <br><a href="">Nuestra Empresa</a> <br><a href="">Medios de Pagos</a></td>
+                                <td style="width: 360px;" class="td1">CONTACTOS <br><br>"ventas_CENTURYCOMPUTERS" Facebook <br>"CENTURY_COMPUTERS" Instagram <br>999 888 777 WhatsApp</td>
+                                <td style="width: 320px;" class="td1">SIGUENOS <br><br><img src="images/face.png" style="width: 37px;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/insta.png" style="width: 40px;"></td>
+                        </table>
+                    </div>
+                    <div class="copy">
+                        Copyright© Importaciones Century Computers. Todos los derechos reservados
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+    <script src="js/app.js"></script>
 </body>
 </html>
